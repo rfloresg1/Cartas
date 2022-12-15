@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6af51539-5904-4eaa-97c3-41fb213e54ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/ieslavereda/cartas/Baraja.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/ieslavereda/cartas/Carta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/ieslavereda/cartas/CartasTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/ieslavereda/cartas/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/ieslavereda/cartas/Lia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/ieslavereda/cartas/Palo.java" afterDir="false" />
-    </list>
+    <list default="true" id="6af51539-5904-4eaa-97c3-41fb213e54ac" name="Changes" comment="Cartitas" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,6 +52,14 @@
       <option name="presentableId" value="Default" />
       <updated>1671129089845</updated>
     </task>
+    <task id="LOCAL-00001" summary="Cartitas">
+      <created>1671135448471</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671135448471</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -79,5 +72,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Cartitas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cartitas" />
   </component>
 </project>
