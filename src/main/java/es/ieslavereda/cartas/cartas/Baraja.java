@@ -1,4 +1,4 @@
-package es.ieslavereda.cartas;
+package es.ieslavereda.cartas.cartas;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -9,7 +9,7 @@ public class Baraja {
     private Carta[] cartas;
 
     public Baraja(){
-        cartas = new Carta[Palo.values().length*Lia.values().length];
+        cartas = new Carta[Palo.values().length* Lia.values().length];
         int j= 0;
         for (Palo palo: Palo.values()) {
             for (Lia lia : Lia.values()) {

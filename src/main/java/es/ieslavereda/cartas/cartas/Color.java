@@ -1,4 +1,4 @@
-package es.ieslavereda.cartas;
+package es.ieslavereda.cartas.cartas;
 import com.diogonunes.jcolor.Attribute;
 
 public enum Color {

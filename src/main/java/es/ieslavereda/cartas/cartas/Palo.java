@@ -1,4 +1,4 @@
-package es.ieslavereda.cartas;
+package es.ieslavereda.cartas.cartas;
 import static com.diogonunes.jcolor.Ansi.colorize;
 
 public enum Palo {

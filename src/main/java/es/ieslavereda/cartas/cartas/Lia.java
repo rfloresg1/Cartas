@@ -1,4 +1,4 @@
-package es.ieslavereda.cartas;
+package es.ieslavereda.cartas.cartas;
 
 public enum Lia {
     UNO("A",new int[]{1,11}),

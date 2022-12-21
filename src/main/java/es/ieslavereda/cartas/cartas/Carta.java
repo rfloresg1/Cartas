@@ -1,4 +1,4 @@
-package es.ieslavereda.cartas;
+package es.ieslavereda.cartas.cartas;
 
 public class Carta {
     private Palo palo;
