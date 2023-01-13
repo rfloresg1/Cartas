@@ -1,9 +1,9 @@
 package es.ieslavereda.cartas.persona;
 
 public enum Sexo {
-    HOMBRE("Hombre"),
-    MUJER("Mujer"),
-    NO("No");
+    H("Hombre"),
+    M("Mujer"),
+    N("No");
 
     private String texto;
 

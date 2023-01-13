@@ -1,5 +1,6 @@
 package es.ieslavereda.cartas.persona;
 
+import java.security.PublicKey;
 import java.util.Scanner;
 
 public class Persona {
@@ -47,21 +48,30 @@ public class Persona {
 
     }
 
-    public boolean esMayorDeEdad(int edad){
+    public String esMayorDeEdad(int edad){
         if (edad >= 18){
-            return true;
+            return "Es mayor de edad";
         }else {
-            return false;
+            return "Es menor de edad";
         }
+    }
+    public String pesoIdeal(double kilos,double altura){
+        if (calcularIMC(kilos, altura) == BAJOPESO)
+            return "Esta persona tiene un bajo peso";
+        if (calcularIMC(kilos, altura) == NORMAL)
+            return  "Esta persona tiene un peso normal";
+        if (calcularIMC(kilos, altura) == SOBREPESO)
+            return "Esta persona tiene sobrepeso";
+
+        return "Esta persona tiene obesidad";
     }
 
     @Override
     public String toString(){
-        return "Nombre: " + getNombre() + " Apellidos: " + getApellidos() + " Edad: " + getEdad() + " DNI: " + getDni() + " Sexo: " + getSexo() + " Kilos: " + getKilos() + " Altura: " + getAltura();
+        return "Nombre:" + getNombre() + " Apellidos:" + getApellidos() + " Edad:" + getEdad() + " DNI:" + getDni() + " Sexo:" + getSexo() + " Kilos:" + getKilos() + " Altura:" + getAltura()+"m";
     }
 
     public String generaDNI(){
-        Scanner sc = new Scanner(System.in);
         String [] letras = {"T","R","W","A","G","M","Y","F","P","D","X","B","N","J","Z","S","Q","V","H","L","C","K","E"};
         int numero = (int)(Math.random()*1000000000);
 
